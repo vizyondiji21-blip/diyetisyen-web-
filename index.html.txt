@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Diyetisyen Portfolyosu</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4fcf4; color: #333; }
+        header { background-color: #2d5a27; color: white; padding: 2rem; text-align: center; }
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+        .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: #2d5a27; }
+        .btn { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-block; }
+        .btn:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Diyetisyen [Adınız Soyadınız]</h1>
+    <p>Sağlıklı Yaşam ve Beslenme Danışmanlığı</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Hakkımda</h2>
+        <p>Üniversite eğitimimi tamamladıktan sonra kişiye özel beslenme programları ile yüzlerce danışanımın hayatına dokundum.</p>
+    </div>
+
+    <div class="card">
+        <h2>Hizmetlerim</h2>
+        <ul>
+            <li>Online Diyet Takibi</li>
+            <li>Sporcu Beslenmesi</li>
+            <li>Kilo Alma / Verme Süreçleri</li>
+        </ul>
+    </div>
+
+    <div class="card" style="text-align: center;">
+        <h2>Randevu Alın</h2>
+        <p>Sağlıklı bir adım atmak için bana ulaşın.</p>
+        <a href="mailto:mail@adresiniz.com" class="btn">E-posta Gönder</a>
+    </div>
+</div>
+
+</body>
+</html>
